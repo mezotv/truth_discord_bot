@@ -5,7 +5,6 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('info')
         .setDescription("Sends a link to bot information")
-        .setDMPermission(false)
         .setDescriptionLocalizations({
             de: 'Sendet einen link zu Bot Informationen',
         }),
